@@ -1,0 +1,173 @@
+.html-ad,
+.css-ad,
+.js-ad,
+.python-ad,
+.sql-ad {
+  display: flex;
+}
+
+.html-left, .html-right,
+.css-left, .css-right,
+.js-left, .js-right,
+.python-left, .python-right,
+.sql-left, .sql-right {
+  width: 50%;
+  background-color: rgba(217,237,225,255);
+  padding: 80px 0 80px 80px;
+}
+
+.css-left, .css-right {
+  background-color: rgba(255,243,164,255);
+}
+
+.js-left, .js-right {
+  background-color: rgba(39,42,52,255);
+}
+
+.python-left, .python-right {
+  background-color: rgba(243,236,234,255);
+}
+
+.sql-left, .sql-right {
+  background-color: rgba(150,212,212,255);
+}
+
+.section-two img {
+  width: 95%;
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 20px 20px 0;
+}
+
+.js-left>h2, .js-left>p {
+  color: white;
+}
+
+.css-left>h2 {
+  margin-right: 40px;
+}
+
+.section-two p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-right: 20px;
+}
+
+.section-two ul {
+  display: block;
+  list-style: none;
+  padding: 0;
+}
+
+.section-two a {
+  display: block;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.section-two li {
+  max-width: 200px;
+  margin-left: 200px;
+}
+
+
+.learning-block,
+.learning-block>a {
+  background-color: rgba(9,169,109,255);
+  color: white;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.video-tutorial-block,
+.video-tutorial-block>a {
+  background-color: rgba(255,243,164,255);
+  color: black;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.reference-block,
+.reference-block>a {
+  background-color: rgba(39,42,52,255);
+  color: white;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.certified-block,
+.certified-block>a {
+  background-color: rgba(255,192,199,255);
+  color: black;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.learning-block a:hover {
+  background-color: rgba(7,152,97,255);
+}
+
+.video-tutorial-block a:hover {
+  background-color: rgba(255,240,127,255);
+}
+
+.reference-block a:hover {
+  background-color: rgba(0,0,0,255);
+}
+
+.certified-block a:hover {
+  background-color: rgba(255,179,187,255);
+}
+
+.js-ref-block,
+.js-ref-block>a {
+  background-color: white;
+  color: black;
+}
+
+.js-ref-block a:hover {
+  background-color: rgba(230,233,235,255);
+}
+
+.try-button {
+  background-color: rgba(9,169,109,255);
+  border: none;
+  border-radius: 40px;
+  position: absolute;
+  right: 420px;
+}
+
+.try-button>a {
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  padding: 10px 40px;
+}
+
+.html-try-button {
+  top: 1121px;
+}
+
+.css-try-button {
+  top: 1765px;
+}
+
+.js-try-button {
+  top: 2295px;
+}
+
+.python-try-button {
+  top: 2867px;
+}
+
+.sql-try-button {
+  top: 3447px;
+}
