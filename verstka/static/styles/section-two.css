@@ -1,0 +1,149 @@
+.language-main-ad {
+  display: flex;
+}
+
+.language-ad-section {
+  width: 50%;
+  background-color: rgb(217,237,225);
+  padding: 80px 0 80px 80px;
+}
+
+.css-ad {
+  background-color: rgb(255,243,164);
+}
+
+.js-ad {
+  background-color: rgb(39,42,52);
+  color: white;
+}
+
+.python-ad {
+  background-color: rgb(243,236,234);
+}
+
+.sql-ad {
+  background-color: rgb(150,212,212);
+}
+
+.section-two h2 {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.section-two img {
+  width: 600px;
+  border-radius: 20px;
+  margin-right: 100px;
+}
+
+.section-two p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.section-two ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section-two a {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.ad-ref-link,
+.ad-ref-link a {
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.learning-block,
+.learning-block a {
+  background-color: rgb(9,169,109);
+  color: white;
+}
+
+.video-tutorial-block,
+.video-tutorial-block a {
+  background-color: rgb(255,243,164);
+  color: black;
+}
+
+.reference-block,
+.reference-block a {
+  background-color: rgb(39,42,52);
+  color: white;
+}
+
+.certified-block,
+.certified-block a {
+  background-color: rgb(255,192,199);
+  color: black;
+}
+
+.learning-block a:hover {
+  background-color: rgb(7,152,97);
+}
+
+.video-tutorial-block a:hover {
+  background-color: rgb(255,240,127);
+}
+
+.reference-block a:hover {
+  background-color: black;
+}
+
+.certified-block a:hover {
+  background-color: rgb(255,179,187);
+}
+
+.js-ref-block,
+.js-ref-block>a {
+  background-color: white;
+  color: black;
+}
+
+.js-ref-block a:hover {
+  background-color: rgb(230,233,235);
+}
+
+.language-main-ad .try-button {
+  color: white;
+  background-color: rgb(9,169,109);
+  border-radius: 40px;
+  font-size: 20px;
+  padding: 10px 40px;
+  position: absolute;
+  margin: 0;
+  right: 490px;
+}
+
+.try-button:hover {
+  background-color: rgb(7,152,97);
+}
+
+#html-try-button {
+  top: 1149px;
+}
+
+#css-try-button {
+  top: 1767px;
+}
+
+#js-try-button {
+  top: 2317px;
+}
+
+#python-try-button {
+  top: 2897px;
+}
+
+#sql-try-button {
+  top: 3480px;
+}

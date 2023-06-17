@@ -1,0 +1,191 @@
+.section-four div {
+  padding: 75px 0;
+}
+
+.section-four h3 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.section-four p {
+  padding-top: 10px;
+  margin: 0;
+  font-size: 23px;
+}
+
+/*first block*/
+.centered-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-learning {
+  background-color: rgb(217,237,225);
+  padding-bottom: 75px;
+}
+
+.bolder-text {
+  font-weight: bolder;
+}
+
+.image-indent-w-button {
+  margin: 40px 0;
+}
+
+/*second block*/
+.pro-user {
+  background-color: rgb(39,42,52);
+}
+
+.white-text {
+  color: white;
+}
+
+.pro-user p {
+  color: rgb(255,192,199);
+  font-weight: bold;
+}
+
+.pro-user div {
+  padding: 40px 0;
+  margin: 0;
+}
+
+.tick-list li {
+  list-style: url("https://www.w3schools.com/spaces/files/check3.db67d31e.svg");
+  color: white;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-bottom: 4px;
+}
+
+.tick-list-links {
+  color: white;
+}
+
+.tick-list-links:hover {
+  color: rgb(13,150,96);
+}
+
+/*third block*/
+.color-picker {
+  background-color: rgb(243,236,234);
+}
+
+.image-indent {
+  margin-top: 40px;
+}
+
+.image-opacity:hover {
+  opacity: 0.7;
+}
+
+/*fourth block*/
+.code-game {
+  background-color: rgb(150,212,212);
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.code-game-but {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(39,42,52);
+  padding: 15px 80px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+/*fifth block*/
+.ex-and-quiz {
+  background-color: rgb(39,42,52);
+}
+
+.ex-and-quiz-links {
+  margin-top: 50px;
+}
+
+.ex-and-quiz-links a {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+  border-radius: 10px;
+  padding: 60px 200px;
+  margin: 0 20px;
+}
+
+.lb-ex-and-q {
+  background-color: rgb(10,166,108);
+  color: white;
+}
+
+.ybl-ex-and-q {
+  background-color: rgb(248,237,160);
+  color: black;
+}
+
+.lb-ex-and-q:hover {
+  background-color: rgb(7,152,97);
+}
+
+.ybl-ex-and-q:hover {
+  background-color: rgb(248,234,126);
+}
+
+/*sixth block*/
+.web-templates {
+  background-color: rgb(230,233,235);
+}
+
+.web-templates img {
+  width: 1000px;
+}
+
+/*seventh block*/
+.kickstart {
+  background-color: rgb(39,42,52);
+}
+
+.kickstart h3 {
+  color: rgb(255,192,199);
+  text-align: left;
+  margin-left: 80px;
+}
+
+#kickstart-indent {
+  font-size: 45px;
+  padding: 40px 0;
+}
+
+.kickstart a {
+  margin-left: 80px;
+}
+
+.kickstart img {
+  width: 400px;
+  position: absolute;
+  right: 100px;
+  top: 12462px;
+}
+
+/*eighth block*/
+.howto-section .smaller-paragraph {
+  font-size: 17px;
+}
+
+.howto-section img {
+  width: 800px;
+  margin-top: 20px;
+}
+
+.howto-section a {
+  padding: 15px 150px;
+}
+
+.green-to-black-box:hover {
+  background-color: rgb(7,152,97);
+}

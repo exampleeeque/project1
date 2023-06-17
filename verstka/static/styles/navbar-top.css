@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-top-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.nav-display-row {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding-inline-start: 5px;
+  margin-top: 0;
+}
+
+#logo {
+  width: 50px;
+}
+
+.nav-link {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-display-row li {
+  margin: 0 5px;
+}
+
+.nav-left a:hover {
+  background-color: rgb(9,169,109);
+  color: white;
+  border-radius: 15px;
+}
+
+/*colouring button-links*/
+.upgrade-button {
+  background-color: rgb(150,99,246);
+  border-radius: 30px;
+}
+
+.upgrade-button a:hover {
+  background-color: rgb(125,83,203);
+  border-radius: 30px;
+}
+
+.certified-button {
+  background-color: rgb(255,192,199);
+  border-radius: 30px;
+}
+
+.certified-button a:hover {
+  background-color: rgb(255,179,187);
+  border-radius: 30px;
+}
+
+.create-web-button {
+  background-color: rgb(255,243,164);
+  border-radius: 30px;
+}
+
+.create-web-button a:hover {
+  background-color: rgb(255,240,127);
+  border-radius: 30px;
+}
+
+.sign-button {
+  background-color: rgb(9,169,109);
+  border-radius: 30px;
+}
+
+.sign-button a:hover {
+  background-color: rgb(7,152,97);
+  border-radius: 30px;
+}
+
+.log-button {
+  background-color: rgb(217,237,225);
+  border-radius: 30px;
+}
+
+.log-button a:hover {
+  background-color: rgb(7,152,97);
+  border-radius: 30px;
+}
