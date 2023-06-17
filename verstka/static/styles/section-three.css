@@ -1,5 +1,5 @@
 .section-three {
-  background-color: rgba(39,42,52,255);
+  background-color: rgb(39,42,52);
 }
 
 /*Popular languages*/
@@ -20,7 +20,7 @@
 
 .popular-lan>div>a {
   padding: 15px 80px;
-  background-color: rgba(39,42,52,255);
+  background-color: rgb(39,42,52);
   border-radius: 30px;
   font-size: 20px;
 }
@@ -42,27 +42,27 @@
 }
 
 .pink-box-link {
-  background-color: rgba(234,178,184,255);
+  background-color: rgb(234,178,184);
 }
 
 .yellow-box-link {
-  background-color: rgba(234,223,152,255);
+  background-color: rgb(234,223,152);
 }
 
 .sand-box-link {
-  background-color: rgba(223,217,216,255);
+  background-color: rgb(223,217,216);
 }
 
 .american-silver-box-link {
-  background-color: rgba(199,218,209,255);
+  background-color: rgb(199,218,209);
 }
 
 .sea-wave-box-link {
-  background-color: rgba(139,194,196,255);
+  background-color: rgb(139,194,196);
 }
 
 .green-box-link {
-  background-color: rgba(9,169,109,255);
+  background-color: rgb(9,169,109);
 }
 
 .pop-lan-but:hover{
@@ -124,27 +124,27 @@
 }
 
 .sbl-hover:hover {
-  background-color: rgba(243,236,234,255);
+  background-color: rgb(243,236,234);
 }
 
 .asbl-hover:hover {
-  background-color: rgba(217,237,225,255);
+  background-color: rgb(217,237,225);
 }
 
 .swbl-hover:hover {
-  background-color: rgba(150,212,212,255);
+  background-color: rgb(150,212,212);
 }
 
 .pbl-hover:hover {
-  background-color: rgba(255,192,199,255);
+  background-color: rgb(255,192,199);
 }
 
 .ybl-hover:hover {
-  background-color: rgba(255,243,164,255);
+  background-color: rgb(255,243,164);
 }
 
 .gbl-hover:hover {
-  background-color: rgba(7,152,97,255);
+  background-color: rgb(7,152,97);
 }
 
 /*Rest of section three*/
@@ -183,11 +183,11 @@
 }
 
 .spaces {
-  color: rgba(251,189,196,255);;
+  color: rgb(251,189,196);
 }
 
 .spaces:hover {
-  color: rgba(13,150,96,255);
+  color: rgb(13,150,96);
 }
 
 .w3spaces {
@@ -197,12 +197,11 @@
 }
 
 .learn-more {
-  margin-left: 590px;
   width: 250px;
   text-align: center;
   display: inline-block;
   padding: 20px;
-  background-color: rgba(12,167,108,255);
+  background-color: rgb(12,167,108);
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -211,7 +210,7 @@
 }
 
 .learn-more:hover {
-  background-color: rgba(7,152,97,255);
+  background-color: rgb(7,152,97);
 }
 
 .w3schools-spaces {

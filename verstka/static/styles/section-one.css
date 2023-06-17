@@ -6,7 +6,7 @@
 .section-one {
   list-style: none;
   display: block;
-  background-color: rgba(39,42,52,255);
+  background-color: rgb(39,42,52);
 }
 
 .tool-panel>ul>li {
@@ -27,7 +27,7 @@
 }
 
 .motto {
-  color: rgba(253,191,198,255);
+  color: rgb(253,191,198);
   font-size: 22px;
   font-weight: bold;
   padding-bottom: 10px;

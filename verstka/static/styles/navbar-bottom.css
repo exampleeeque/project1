@@ -1,10 +1,10 @@
 .first-hr {
-  border: 1px solid rgba(241,241,241,255);
+  border: 1px solid rgb(241,241,241);
   width: 96%;
 }
 
 .second-hr {
-  border: 1px solid rgba(241,241,241,255);
+  border: 1px solid rgb(241,241,241);
   width: 90%;
   margin-bottom: 30px;
 }
@@ -23,7 +23,7 @@
 }
 
 .main-bottom-links a:hover {
-  background-color: rgba(7,152,97,255);
+  background-color: rgb(7,152,97);
 }
 
 .bottom-headers {
@@ -55,7 +55,7 @@
 }
 
 .tertiary-links>div a:hover {
-  color: rgba(7,152,97,255);
+  color: rgb(7,152,97);
   text-decoration: underline;
 }
 
@@ -71,15 +71,15 @@
 
 .forum-about a {
   text-decoration: none;
-  color: rgba(102,102,102,255);
+  color: rgb(102,102,102);
 }
 
 .forum-about a:hover {
-  color: rgba(129,193,160,255);
+  color: rgb(129,193,160);
 }
 
 .last-sentence p {
-  color: rgba(102,102,102,255);
+  color: rgb(102,102,102);
   text-align: center;
   font-size: 12px;
   margin: 15px 80px;
@@ -87,20 +87,15 @@
 
 .last-link-sentence {
   text-decoration: none;
-  color: rgba(102,102,102,255);
+  color: rgb(102,102,102);
 }
 
 .last-link-sentence:hover {
-  color: rgba(129,193,160,255);
+  color: rgb(129,193,160);
   text-decoration: underline;
 }
 
 .nav-bottom-container img {
   width: 3%;
   margin-left: 690px;
-}
-
-.bottom-headers>h6>a {
-  font-size: 20px;
-  margin: 0 0 10px 0;
 }
