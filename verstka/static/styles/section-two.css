@@ -1,62 +1,47 @@
-.html-ad,
-.css-ad,
-.js-ad,
-.python-ad,
-.sql-ad {
+.language-main-ad {
   display: flex;
 }
 
-.html-left, .html-right,
-.css-left, .css-right,
-.js-left, .js-right,
-.python-left, .python-right,
-.sql-left, .sql-right {
+.language-ad-section {
   width: 50%;
   background-color: rgb(217,237,225);
   padding: 80px 0 80px 80px;
 }
 
-.css-left, .css-right {
+.css-ad {
   background-color: rgb(255,243,164);
 }
 
-.js-left, .js-right {
+.js-ad {
   background-color: rgb(39,42,52);
-}
-
-.python-left, .python-right {
-  background-color: rgb(243,236,234);
-}
-
-.sql-left, .sql-right {
-  background-color: rgb(150,212,212);
-}
-
-.section-two img {
-  width: 95%;
-  border-radius: 20px;
-}
-
-h2 {
-  font-size: 100px;
-  font-weight: bold;
-  text-align: center;
-  margin: 10px 20px 20px 0;
-}
-
-.js-left>h2, .js-left>p {
   color: white;
 }
 
-.css-left>h2 {
-  margin-right: 40px;
+.python-ad {
+  background-color: rgb(243,236,234);
+}
+
+.sql-ad {
+  background-color: rgb(150,212,212);
+}
+
+.section-two h2 {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.section-two img {
+  width: 600px;
+  border-radius: 20px;
+  margin-right: 100px;
 }
 
 .section-two p {
   text-align: center;
   font-size: 18px;
   font-weight: lighter;
-  margin-right: 20px;
 }
 
 .section-two ul {
@@ -66,17 +51,24 @@ h2 {
 }
 
 .section-two a {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
   text-decoration: none;
 }
 
-.section-two li {
-  max-width: 200px;
-  margin-left: 200px;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 .learning-block,

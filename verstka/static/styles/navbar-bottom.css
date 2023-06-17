@@ -7,7 +7,7 @@
 .main-bottom-links {
   padding: 20px 0;
   display: grid;
-  grid-template-columns: 288px 288px 288px 288px 288px;
+  grid-template-columns: repeat(5, 288px);
   text-align: center;
 }
 
@@ -113,7 +113,7 @@
   text-decoration: underline;
 }
 
-.last-sentence .margin-zero {
+.last-sentence .copyright {
   margin: 0;
 }
 
