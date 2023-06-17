@@ -6,20 +6,22 @@ body {
 .nav-top-container {
   display: flex;
   justify-content: space-between;
+  padding-top: 15px;
 }
 
-.nav-top-container>nav>ul>a>img {
-  width: 50px;
-}
-
-.nav-top-container>nav>ul,
-.nav-top-right {
+.nav-display-row {
   display: flex;
   list-style: none;
   align-items: center;
+  padding-inline-start: 5px;
+  margin-top: 0;
 }
 
-.nav-top-container>nav>ul>li>a {
+#logo {
+  width: 50px;
+}
+
+.nav-link {
   display: block;
   padding: 20px;
   text-decoration: none;
@@ -28,27 +30,17 @@ body {
   font-size: 18px;
 }
 
-.nav-top-left>ul>li a:hover {
+.nav-display-row li {
+  margin: 0 5px;
+}
+
+.nav-left a:hover {
   background-color: rgb(9,169,109);
   color: white;
   border-radius: 15px;
 }
 
-.nav-top-left>ul>li,
-.nav-top-right>ul>li{
-  margin: 5px;
-}
-
-.nav-top-container {
-  padding-top: 15px;
-}
-
-.nav-top-left>ul,
-.nav-top-right>ul {
-  padding-inline-start: 5px;
-  margin-top: 0;
-}
-
+/*colouring button-links*/
 .upgrade-button {
   background-color: rgb(150,99,246);
   border-radius: 30px;
@@ -82,7 +74,6 @@ body {
 .sign-button {
   background-color: rgb(9,169,109);
   border-radius: 30px;
-  margin-right: 0;
 }
 
 .sign-button a:hover {
@@ -93,7 +84,6 @@ body {
 .log-button {
   background-color: rgb(217,237,225);
   border-radius: 30px;
-  margin-left: 0;
 }
 
 .log-button a:hover {

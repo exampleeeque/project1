@@ -41,11 +41,9 @@
 .section-two p {
   text-align: center;
   font-size: 18px;
-  font-weight: lighter;
 }
 
 .section-two ul {
-  display: block;
   list-style: none;
   padding: 0;
 }
@@ -59,48 +57,34 @@
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.learning-block,
-.learning-block>a {
-  background-color: rgb(9,169,109);
-  color: white;
+.ad-ref-link,
+.ad-ref-link a {
   border-radius: 40px;
   font-weight: bold;
+}
+
+.learning-block,
+.learning-block a {
+  background-color: rgb(9,169,109);
+  color: white;
 }
 
 .video-tutorial-block,
-.video-tutorial-block>a {
+.video-tutorial-block a {
   background-color: rgb(255,243,164);
   color: black;
-  border-radius: 40px;
-  font-weight: bold;
 }
 
 .reference-block,
-.reference-block>a {
+.reference-block a {
   background-color: rgb(39,42,52);
   color: white;
-  border-radius: 40px;
-  font-weight: bold;
 }
 
 .certified-block,
-.certified-block>a {
+.certified-block a {
   background-color: rgb(255,192,199);
   color: black;
-  border-radius: 40px;
-  font-weight: bold;
 }
 
 .learning-block a:hover {
@@ -129,37 +113,37 @@
   background-color: rgb(230,233,235);
 }
 
-.try-button {
-  background-color: rgb(9,169,109);
-  border: none;
-  border-radius: 40px;
-  position: absolute;
-  right: 420px;
-}
-
-.try-button>a {
-  margin: 0;
+.language-main-ad .try-button {
   color: white;
+  background-color: rgb(9,169,109);
+  border-radius: 40px;
   font-size: 20px;
   padding: 10px 40px;
+  position: absolute;
+  margin: 0;
+  right: 490px;
 }
 
-.html-try-button {
-  top: 1121px;
+.try-button:hover {
+  background-color: rgb(7,152,97);
 }
 
-.css-try-button {
-  top: 1765px;
+#html-try-button {
+  top: 1149px;
 }
 
-.js-try-button {
-  top: 2295px;
+#css-try-button {
+  top: 1767px;
 }
 
-.python-try-button {
-  top: 2867px;
+#js-try-button {
+  top: 2317px;
 }
 
-.sql-try-button {
-  top: 3447px;
+#python-try-button {
+  top: 2897px;
+}
+
+#sql-try-button {
+  top: 3480px;
 }

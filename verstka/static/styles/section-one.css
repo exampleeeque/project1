@@ -1,22 +1,26 @@
-.tool-panel {
-  color: white;
-  display: inline;
-}
-
 .section-one {
-  list-style: none;
-  display: block;
   background-color: rgb(39,42,52);
+  padding-bottom: 150px;
 }
 
-.tool-panel>ul>li {
-  display: inline;
+.tool-panel {
+  list-style: none;
+  display: flex;
+  margin-left: 1320px;
+  padding-top: 10px;
+}
+
+.tool-panel a {
+  color: white;
+  text-decoration: none;
   padding-right: 20px;
 }
 
-.tool-panel>ul {
-  margin-left: 1280px;
-  padding-top: 10px;
+#theme {
+  position: absolute;
+  right: 80px;
+  height: 21px;
+  top: 119px;
 }
 
 .learn-code {
@@ -34,32 +38,22 @@
   margin-top: 5px;
 }
 
-.question {
+.mid-sec-one a {
   color: white;
   font-size: 22px;
   font-weight: bold;
-  padding-bottom: 150px;
-  display: block;
-  padding-top: 40px;
+  margin-top: 40px;
 }
 
-.mid-sec-one {
-  text-align: center;
+.mid-sec-one a:hover {
+  color: rgb(7,152,97);
 }
 
-
-.mid-sec-one>input {
+.mid-sec-one input {
   width: 500px;
   height: 30px;
   font-size: 20px;
   border-radius: 30px;
   border-width: 0;
-  padding: 10px 0 10px 30px;
-}
-
-
-.tool-panel>ul>li>a,
-.mid-sec-one>ins>a {
-  text-decoration: none;
-  color: white;
+  padding: 10px 20px;
 }

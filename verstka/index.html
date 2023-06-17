@@ -13,73 +13,43 @@
 </head>
 <body>
   <div class="nav-top-container">
-    <nav class="nav-top-left">
-      <ul>
-        <a href="https://www.w3schools.com/"><img src="static/images/logo.png" alt="logo"></a>
-        <li><a href="#">Tutorials</a></li>
-        <li><a href="#">References</a></li>
-        <li><a href="#">Exercises</a></li>
-        <li><a href="https://www.w3schools.com/bootcamp/index.php">Bootcamps</a></li>
-        <li><a href="https://www.w3schools.com/videos/index.phpa">Videos</a></li>
+    <nav>
+      <ul class="nav-display-row nav-left">
+        <li><a href="https://www.w3schools.com/"><img src="static/images/logo.png" alt="logo" id="logo"></a></li>
+        <li><a href="#" class="nav-link">Tutorials</a></li>
+        <li><a href="#" class="nav-link">References</a></li>
+        <li><a href="#" class="nav-link">Exercises</a></li>
+        <li><a href="https://www.w3schools.com/bootcamp/index.php" class="nav-link">Bootcamps</a></li>
+        <li><a href="https://www.w3schools.com/videos/index.phpa" class="nav-link">Videos</a></li>
       </ul>
     </nav>
-    <nav class="nav-top-right">
-      <ul>
-        <li class="upgrade-button"><a href="https://www.w3schools.com/pro/index.php"><span>&#10024;</span> Upgrade</a></li>
-        <li class="certified-button"><a href="https://shop.w3schools.com/collections/course-catalog">Get Certified</a></li>
-        <li class="create-web-button"><a href="https://www.w3schools.com/spaces/index.html">Create Website</a></li>
-        <li class="sign-button"><a href="https://www.w3schools.com/signup/index.html">Sign up</a></li>
-        <li class="log-button"><a href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com">Log in</a></li>
+    <nav>
+      <ul class="nav-display-row">
+        <li class="upgrade-button"><a href="https://www.w3schools.com/pro/index.php" class="nav-link"><span>&#10024;</span> Upgrade</a></li>
+        <li class="certified-button"><a href="https://shop.w3schools.com/collections/course-catalog" class="nav-link">Get Certified</a></li>
+        <li class="create-web-button"><a href="https://www.w3schools.com/spaces/index.html" class="nav-link">Create Website</a></li>
+        <li class="sign-button"><a href="https://www.w3schools.com/signup/index.html" class="nav-link">Sign up</a></li>
+        <li class="log-button"><a href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com" class="nav-link">Log in</a></li>
       </ul>
     </nav>
   </div>
   <div class="main">
     <div class="section-one">
-      <div class="tool-panel">
-        <ul>
-          <li><a href="#">&#9681;</a></li>
-          <li><a href="#">&#127760;</a></li>
-          <li><a href="#">&#x1F50D;</a></li>
+      <div>
+        <ul class="tool-panel">
+          <li class="tool-panel-list" id="theme"><a href="#" class="tll">&#9681;</a></li>
+          <li class="tool-panel-list"><a href="#" class="tll">&#127760;</a></li>
+          <li class="tool-panel-list"><a href="#" class="tll">&#x1F50D;</a></li>
         </ul>
       </div>
-      <div class="mid-sec-one">
+      <div class="mid-sec-one centered-block">
         <p class="learn-code">Learn to code</p>
         <p class="motto">With the world's largest web developer site.</p>
-        <input type="text" placeholder="Search our tutorial, e.g. HTML                               &#x1F50D;">
-        <ins class="question"><a href="https://www.w3schools.com/where_to_start.asp">Not Sure Where To Begin?</a></ins>
+        <label for="searching"></label>
+        <input type="text" placeholder="Search our tutorial, e.g. HTML" id="searching">
+        <a href="https://www.w3schools.com/where_to_start.asp">Not Sure Where To Begin?</a>
       </div>
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <div class="section-two">
       <div class="language-main-ad">
         <div class="language-ad-section centered-block">
@@ -87,16 +57,16 @@
          <p>The language for building web pages</p>
          <div class="html-ad-ref">
            <ul>
-             <li class="learning-block"><a href="https://www.w3schools.com/html/default.asp">Learn HTML</a></li>
-             <li class="video-tutorial-block"><a href="https://www.w3schools.com/videos/index.php">Video Tutorial</a></li>
-             <li class="reference-block"><a href="https://www.w3schools.com/tags/default.asp">HTML Reference</a></li>
-             <li class="certified-block"><a href="https://shop.w3schools.com/collections/certifications/products/html-certificate">Get Certified</a></li>
+             <li class="learning-block ad-ref-link"><a href="https://www.w3schools.com/html/default.asp">Learn HTML</a></li>
+             <li class="video-tutorial-block ad-ref-link"><a href="https://www.w3schools.com/videos/index.php">Video Tutorial</a></li>
+             <li class="reference-block ad-ref-link"><a href="https://www.w3schools.com/tags/default.asp">HTML Reference</a></li>
+             <li class="certified-block ad-ref-link"><a href="https://shop.w3schools.com/collections/certifications/products/html-certificate">Get Certified</a></li>
            </ul>
          </div>
         </div>
         <div class="language-ad-section centered-block">
           <img src="static/images/html-example.png" alt="html example">
-          <button class="try-button html-try-button"><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default_default">Try it Yourself</a></button>
+          <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default_default" class="try-button" id="html-try-button">Try it Yourself</a>
         </div>
       </div>
       <div class="language-main-ad">
@@ -105,15 +75,15 @@
           <p>The language for styling web pages</p>
           <div class="css-ad-ref">
             <ul>
-              <li class="learning-block"><a href="https://www.w3schools.com/css/default.asp">Learn CSS</a></li>
-              <li class="reference-block"><a href="https://www.w3schools.com/cssref/index.php">CSS Reference</a></li>
-              <li class="certified-block"><a href="https://shop.w3schools.com/collections/certifications/products/css-certificate">Get Certified</a></li>
+              <li class="learning-block ad-ref-link"><a href="https://www.w3schools.com/css/default.asp">Learn CSS</a></li>
+              <li class="reference-block ad-ref-link"><a href="https://www.w3schools.com/cssref/index.php">CSS Reference</a></li>
+              <li class="certified-block ad-ref-link"><a href="https://shop.w3schools.com/collections/certifications/products/css-certificate">Get Certified</a></li>
             </ul>
           </div>
         </div>
         <div class="language-ad-section css-ad centered-block">
           <img src="static/images/css-example.png" alt="css example">
-          <button class="try-button css-try-button"><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default">Try it Yourself</a></button>
+          <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default" class="try-button" id="css-try-button">Try it Yourself</a>
         </div>
       </div>
       <div class="language-main-ad">
@@ -122,32 +92,32 @@
           <p>The language for programming web pages</p>
           <div class="js-ad-ref">
             <ul>
-              <li class="learning-block"><a href="https://www.w3schools.com/css/default.asp">Learn JavaScript</a></li>
-              <li class="reference-block js-ref-block"><a href="https://www.w3schools.com/cssref/index.php">JavaScript Reference</a></li>
-              <li class="certified-block"><a href="https://shop.w3schools.com/collections/certifications/products/css-certificate">Get Certified</a></li>
+              <li class="learning-block ad-ref-link"><a href="https://www.w3schools.com/css/default.asp">Learn JavaScript</a></li>
+              <li class="reference-block ad-ref-link js-ref-block"><a href="https://www.w3schools.com/cssref/index.php">JavaScript Reference</a></li>
+              <li class="certified-block ad-ref-link"><a href="https://shop.w3schools.com/collections/certifications/products/css-certificate">Get Certified</a></li>
             </ul>
           </div>
         </div>
         <div class="language-ad-section js-ad centered-block">
           <img src="static/images/js-example.png" alt="js example">
-          <button class="try-button js-try-button"><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_default">Try it Yourself</a></button>
+          <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_default" class="try-button" id="js-try-button">Try it Yourself</a>
         </div>
       </div>
-      <div class="language-main-ad python-ad">
-        <div class="language-ad-section centered-block">
+      <div class="language-main-ad">
+        <div class="language-ad-section python-ad centered-block">
           <h2>Python</h2>
           <p>A popular programming language</p>
           <div class="python-ad-ref">
             <ul>
-              <li class="learning-block"><a href="https://www.w3schools.com/css/default.asp">Learn Python</a></li>
-              <li class="reference-block"><a href="https://www.w3schools.com/cssref/index.php">Python Reference</a></li>
-              <li class="certified-block"><a href="https://shop.w3schools.com/collections/certifications/products/css-certificate">Get Certified</a></li>
+              <li class="learning-block ad-ref-link"><a href="https://www.w3schools.com/css/default.asp">Learn Python</a></li>
+              <li class="reference-block ad-ref-link"><a href="https://www.w3schools.com/cssref/index.php">Python Reference</a></li>
+              <li class="certified-block ad-ref-link"><a href="https://shop.w3schools.com/collections/certifications/products/css-certificate">Get Certified</a></li>
             </ul>
           </div>
         </div>
         <div class="language-ad-section python-ad centered-block">
           <img src="static/images/python-example.png" alt="python example">
-          <button class="try-button python-try-button"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_indentation">Try it Yourself</a></button>
+          <a href="https://www.w3schools.com/python/trypython.asp?filename=demo_indentation" class="try-button" id="python-try-button">Try it Yourself</a>
         </div>
       </div>
       <div class="language-main-ad">
@@ -156,49 +126,18 @@
           <p>A language for accessing databases</p>
           <div class="sql-ad-ref">
             <ul>
-              <li class="learning-block"><a href="https://www.w3schools.com/css/default.asp">Learn SQL</a></li>
-              <li class="reference-block"><a href="https://www.w3schools.com/cssref/index.php">SQL Reference</a></li>
-              <li class="certified-block"><a href="https://shop.w3schools.com/collections/certifications/products/css-certificate">Get Certified</a></li>
+              <li class="learning-block ad-ref-link"><a href="https://www.w3schools.com/css/default.asp">Learn SQL</a></li>
+              <li class="reference-block ad-ref-link"><a href="https://www.w3schools.com/cssref/index.php">SQL Reference</a></li>
+              <li class="certified-block ad-ref-link"><a href="https://shop.w3schools.com/collections/certifications/products/css-certificate">Get Certified</a></li>
             </ul>
           </div>
         </div>
         <div class="language-ad-section sql-ad centered-block">
           <img src="static/images/sql-example.png" alt="sql example">
-          <button class="try-button sql-try-button"><a href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_where">Try it Yourself</a></button>
+          <a href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_where" class="try-button" id="sql-try-button">Try it Yourself</a>
         </div>
       </div>
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <div class="section-three">
       <div class="popular-lan">
         <div class="pink-box-link">
